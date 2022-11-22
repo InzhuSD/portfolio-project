@@ -1,5 +1,6 @@
 /* font-family: 'Lora', serif;
-font-family: 'Poppins', sans-serif; */
+font-family: 'Poppins', sans-serif; 
+ */
 
 body {
   position: absolute;
@@ -7,6 +8,7 @@ body {
   height: 600px;
   left: 0px;
   top: 0px;
+  background-color: ffffff;
   background: url("images/20220623_124722");
 }
 
@@ -18,5 +20,5 @@ h1 {
   line-height: 84px;
   letter-spacing: 0.1em;
 
-  color: #ffffff;
+  color: black;
 }
