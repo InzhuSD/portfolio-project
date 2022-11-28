@@ -131,4 +131,40 @@ p {
     line-height: 20px;
     padding: 10px;
   }
+
+  .about-section h1 {
+    font-size: 44px;
+    line-height: 60px;
+    font-weight: 700;
+  }
+  .about-me {
+    text-align: center;
+  }
+}
+
+.about-section {
+  padding: 160px 0;
+}
+
+.about-section h1 {
+  font-size: 64px;
+  line-height: 75px;
+  font-weight: 700;
+}
+
+.about-section h2 {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  font-family: var(--heading-font-family);
+}
+
+.about-section p {
+  font-family: var(--heading-font-family);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.1em;
+  color: #f65282;
+  text-transform: uppercase;
 }
