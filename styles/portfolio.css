@@ -133,10 +133,15 @@ p {
   }
 
   .about-section h1 {
-    font-size: 44px;
+    font-size: 20px;
     line-height: 60px;
     font-weight: 700;
   }
+
+  .about-section h2 {
+    text-align: center;
+  }
+
   .about-me {
     text-align: center;
   }
@@ -157,6 +162,7 @@ p {
   line-height: 30px;
   font-weight: 400;
   font-family: var(--heading-font-family);
+  text-transform: none;
 }
 
 .about-section p {
