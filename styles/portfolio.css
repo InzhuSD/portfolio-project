@@ -150,6 +150,7 @@ p {
 
 .content-container {
   padding: 160px 30px;
+  background-color: var(--branding-color);
 }
 
 .content h1 {
