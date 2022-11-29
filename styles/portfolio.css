@@ -133,12 +133,13 @@ p {
   }
 
   .content-container h1 {
-    font-size: 20px;
+    font-size: 10px;
     line-height: 60px;
     font-weight: 700;
   }
 
   .content-container h2 {
+    font-size: 44px;
     text-align: center;
   }
 
@@ -151,13 +152,13 @@ p {
   padding: 160px 30px;
 }
 
-.content-container h1 {
+.content h1 {
   font-size: 64px;
   line-height: 75px;
   font-weight: 700;
 }
 
-.content-container h2 {
+.content h2 {
   font-size: 18px;
   line-height: 30px;
   font-weight: 400;
@@ -165,7 +166,27 @@ p {
   text-transform: none;
 }
 
-.content-container p {
+.content h3 {
+  font-family: var(--heading-font-family);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1;
+  letter-spacing: 0.1em;
+  color: var(--secondary-color);
+  text-transform: uppercase;
+  margin: 20px 0 0;
+}
+
+.content p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.content {
+  text-align: center;
+  padding: 0;
+}
+.about-me {
   font-family: var(--heading-font-family);
   font-weight: 700;
   font-size: 18px;
