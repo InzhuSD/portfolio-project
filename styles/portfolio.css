@@ -96,6 +96,37 @@ p {
   padding: 60px 60px;
 }
 
+.logo {
+  max-height: 40px;
+}
+
+nav {
+  padding: 20px 0;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 24px;
+  margin-left: 15px;
+}
+
+nav a {
+  font-family: var(--heading-font-family);
+  text-decoration: none;
+  color: var(--secondary-color);
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color);
+}
+
 @media (max-width: 800px) {
   h1 {
     font-size: 20px;
@@ -145,6 +176,10 @@ p {
 
   .about-me {
     text-align: center;
+  }
+
+  nav a {
+    font-size: 14px;
   }
 }
 
